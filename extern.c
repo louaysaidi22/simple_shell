@@ -57,3 +57,26 @@ char **split_path(char *path)
 	args[p] = NULL;
 	return (args);
 }
+
+/**
+ * print_env - function that print env
+ * Return: 0
+ */
+
+int print_env(void)
+{
+	int i = 0, j;
+
+	while (environ[i] != NULL)
+	{
+		j = 0;
+		while (environ[i][j])
+		{
+			_putchar(environ[i][j]);
+			j++;
+		}
+		putchar('\n');
+		i++;
+	}
+	return (0);
+}
