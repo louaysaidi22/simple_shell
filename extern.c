@@ -15,6 +15,7 @@ char *get_path()
 	while (environ[i])
 	{
 		j = 0;
+		while (str[j] == environ[i][j])
 		{
 			j++;
 			if (environ[i][j] == '=')
