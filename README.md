@@ -51,13 +51,18 @@ write (man 2 write)<br/>
 
 ### Files and functions:
 
-AUTHORS           execute_line.c          extern.c
-
-hsh               putchar.c               read_line.c
-
-README.md         shell.c                 shell.h
-
-split_line.c      str.c                   man_1_simple_shell
+AUTHORS<br/>
+execute_line.c<br/>
+extern.c<br/>
+hsh<br/>
+putchar.c<br/>
+read_line.c<br/>
+README.md<br/>
+shell.c<br/>
+shell.h<br/>
+split_line.c<br/>
+str.c<br/>
+man_1_simple_shell<br/>
 
 ### C recreated functions used  :
 
