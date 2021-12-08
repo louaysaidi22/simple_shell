@@ -40,13 +40,13 @@ readdir (man 3 readdir)<br/>
 signal (man 2 signal)<br/>
 stat (xstat) (man 2 stat)<br/>
 lstat (lxstat) (man 2 lstat)<br/>
-fstat (__fxstat) (man 2 fstat)
+fstat (__fxstat) (man 2 fstat)<br/>
 strtok (man 3 strtok)<br/>
 wait (man 2 wait)<br/>
 waitpid (man 2 waitpid)<br/>
-wait3 (man 2 wait3)
-wait4 (man 2 wait4)
-write (man 2 write)
+wait3 (man 2 wait3)<br/>
+wait4 (man 2 wait4)<br/>
+write (man 2 write)<br/>
 
 
 ### Files and functions:
