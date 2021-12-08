@@ -15,7 +15,7 @@ Our shell will be compiled with this command:
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ```
-Annotations
+List of allowed functions and system calls
 chdir (man 2 chdir)
 close (man 2 close)
 closedir (man 3 closedir)
